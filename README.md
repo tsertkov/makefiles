@@ -1,6 +1,6 @@
 # makefiles
 
-Reusable Makefiles.
+Reusable Makefiles collection.
 
 ## Usage
 
@@ -11,7 +11,7 @@ Include additional makefiles as needed.
 ## List of makefiles
 
 - `Makefile.base.mk` - base makefile
-- `Makefile.logs.mk` - makefile with logs-* targets
+- `Makefile.logs.mk` - makefile with `logs-*` targets
 
 ## Testing
 
