@@ -26,18 +26,18 @@ Targets:
 
 Functions:
 
-- `_announce_target` - call with `$(call _announce_target, $@)` to print target name
+- `$(call _announce_target,$(TARGET_NAME))` - print target name
 
 ### Makefile.logs.mk
 
-Logs targets:
+Targets:
 
 - `logs-lambda` - tail lambda logs
 - `logs-access` - CloudFront access logs with `goaccess`
 
 ### Makefile.aws.mk
 
-Aws target:
+Targets:
 
 - `aws-cf-outputs` - print cloudformation stack outputs
 
