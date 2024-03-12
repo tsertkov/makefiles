@@ -35,10 +35,6 @@ Logs targets:
 - `logs-lambda` - tail lambda logs
 - `logs-access` - CloudFront access logs with `goaccess`
 
-## Testing
-
-Run `make test` to ensure that all makefiles have valid syntax.
-
 ### Makefile.aws.mk
 
 Aws target:
@@ -49,3 +45,7 @@ Functions:
 
 - `$(call aws_cf_output,$(STACK_NAME),$(AWS_REGION),$(OUTPUT_NAME))` - get cloudformation stack single output value
 - `$(call aws_region_to_short_name,$(AWS_REGION))` - convert region full name to region code
+
+## Testing
+
+Run `make test` to ensure that all makefiles have valid syntax.
