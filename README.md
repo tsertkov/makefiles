@@ -32,6 +32,7 @@ Functions:
 
 Targets:
 
+- `logs-api` - tail api logs
 - `logs-lambda` - tail lambda logs
 - `logs-access` - CloudFront access logs with `goaccess`
 
